@@ -111,3 +111,9 @@ html {
   font-size: 12px;
   line-height: 16px;
 }
+
+footer {
+  background-color: #21222A;
+  border-radius: 0 0 10px 10px;
+  margin-top: 8px;
+}
