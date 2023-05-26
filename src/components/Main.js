@@ -2,7 +2,7 @@ import React from "react"
 import photo from "../images/headshot.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Main() {
     return (
