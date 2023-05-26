@@ -84,7 +84,7 @@ html {
   text-align: left;
   color: #dcdcdc;
   margin-left: 30px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .about-text {
@@ -100,7 +100,7 @@ html {
   text-align: left;
   color: #dcdcdc;
   margin-left: 30px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .interests-text {
@@ -112,8 +112,30 @@ html {
   line-height: 16px;
 }
 
-footer {
+/* footer {
   background-color: #21222A;
   border-radius: 0 0 10px 10px;
   margin-top: 8px;
+} */
+
+footer {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+  background-color: #21222A;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icon {
+  height: 25px;
+  color: #afacb8;
+  margin: 0 36px;
+}
+
+.footer-icon:hover {
+  filter: brightness(120%);
 }
