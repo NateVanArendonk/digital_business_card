@@ -3,12 +3,13 @@ import photo from "../images/headshot.jpg"
 
 export default function PhotoHeader() {
     return (
-        <div>
-            <h3 className="interests-header">
+        <div className="interests">
+            <h3 className="interests--title">
                 Interests
             </h3>
-            <div className="interests-text">
+            <p className="interests--paragraph">
                 Mountain Biking. Kiteboarding. Skiing. Synthesizers. Coffee. Dachshunds.
-            </div>
-        </div>    )
+            </p>
+        </div>    
+    )
 }

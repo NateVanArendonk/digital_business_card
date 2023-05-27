@@ -7,15 +7,13 @@ import About from './components/About.js'
 
 function App() {
   return (
-    <div className="App" class="card">
-        <Main />
-        <container>
-          <About />
-          <Interests />
-        </container>
-        <footer>
-          <Footer />
-        </footer>
+    <div className="card">
+      <Main />
+      <div className="container">
+        <About />
+        <Interests />
+      </div>
+      <Footer />
     </div>
   );
 }
